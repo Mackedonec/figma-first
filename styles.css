@@ -72,21 +72,80 @@ button {
     max-width: 1200px;
     height: 660px;
 }
+
 .organize {
     padding-top: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .organize-text p {
     color: #000;
 }
+
 .prototyp {
     padding-top: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .prototyp-text p {
     color: #000;
+}
+
+.partners {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.partners button {
+    margin-top: 20px;  
+}
+
+.partners p {
+    color: #000;
+}
+
+.partners-items-first,
+.partners-items-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.partners-item {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #D8D8D8;
+}
+.ibm {
+    padding-top: 200px;
+    text-align: center; 
+}
+.ibm p {
+    color: #000;
+}
+.ibm-box {
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+}
+
+.ibm-text {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.ibm-text p {
+    margin: 0;
+    padding: 0;
+}
+.ibm button {
+    margin-top: 20px;
 }
