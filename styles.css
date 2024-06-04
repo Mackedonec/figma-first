@@ -101,7 +101,7 @@ button {
 }
 
 .partners button {
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
 .partners p {
@@ -122,30 +122,34 @@ button {
     justify-content: center;
     border: 2px solid #D8D8D8;
 }
+
 .ibm {
     padding-top: 200px;
-    text-align: center; 
+    text-align: center;
 }
+
 .ibm p {
     color: #000;
 }
+
 .ibm-box {
-        display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     height: 30px;
 }
 
-.ibm-text {   
+.ibm-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
 }
+
 .ibm-text p {
     margin: 0;
     padding: 0;
 }
+
 .ibm button {
     margin-top: 20px;
 }
