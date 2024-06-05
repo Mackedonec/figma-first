@@ -26,6 +26,12 @@ ul {
 li {
     display: inline-block;
     color: #ffffff;
+    margin: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 h1,
@@ -152,4 +158,75 @@ button {
 
 .ibm button {
     margin-top: 20px;
+}
+
+.pricing {
+margin-top: 200px;
+padding-top: 50px;
+padding-bottom: 50px;
+    text-align: center;
+    background-color: #252B42;
+}
+
+.pricing h2 {
+    color: #ffffff;
+}
+
+.pricing-colums {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 600px;
+}
+
+.pricing-colum p {
+    color: #000;
+}
+
+.pricing-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-price-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-price-text p {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+.pricing-colum-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2091F9;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 700px;
+}
+.pricing-colum-centre h3 {
+    color: #ffffff;
 }
