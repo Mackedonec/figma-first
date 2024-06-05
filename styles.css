@@ -161,9 +161,9 @@ button {
 }
 
 .pricing {
-margin-top: 200px;
-padding-top: 50px;
-padding-bottom: 50px;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: #252B42;
 }
@@ -218,6 +218,7 @@ padding-bottom: 50px;
     padding: 0;
     margin-left: 5px;
 }
+
 .pricing-colum-centre {
     display: flex;
     flex-direction: column;
@@ -227,6 +228,34 @@ padding-bottom: 50px;
     padding-right: 5px;
     height: 700px;
 }
+
 .pricing-colum-centre h3 {
     color: #ffffff;
 }
+.contact {
+  padding-top: 200px;
+    text-align: center;
+}
+.contact p {
+    color: #000;
+}
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form input {
+  margin-top: 30px;
+}
+.contact-form textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-social {
+    display: flex;
+  }
