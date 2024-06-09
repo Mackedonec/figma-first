@@ -17,3 +17,12 @@
     --text-color-light: #ffffff;
     --font-family-primary: "Roboto", sans-serif;    
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+iframe{
+    width: 100%;  
+}
