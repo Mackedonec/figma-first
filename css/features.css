@@ -16,7 +16,7 @@
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.2px;
-    width: 280px;
+    max-width: 280px;
     height: 80px;
     overflow: hidden;
     margin-bottom: 50px;
@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 
     .play-screen {
       position: relative;
@@ -83,25 +83,38 @@
   }
 }
 
+@media (min-width: 600px) {
+  .features {
+    .features-card {
+      .play-screen {
+        &::after {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 800px) {
   .features {
     .features-description {
-        width: 500px;
+      width: 500px;
     }
 
     .features-card {
       .play-screen {
         order: 1;
-        position: relative;
+      }
+    }
+  }
+}
 
+@media (min-width: 1000px) {
+  .features {
+    .features-card {
+      .play-screen {
         &::after {
-          content: "";
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          background-image: url(../img/play_button.png);
-          background-size: cover;
           width: 190px;
           height: 190px;
         }
