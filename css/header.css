@@ -123,7 +123,7 @@
         padding: 10px;
       }
       .header-hero__description {
-        width: 580px;
+        max-width: 580px;
       }
     }
   }
@@ -157,10 +157,14 @@
       }
     }
     .header-hero {
-      max-width: 700px;
+      max-width: 770px;
       .header-hero__title {
         font-size: 74px;
+      }
+      .header-hero__description {
+        max-width: 850px;
       }
     }
   }
 }
+
