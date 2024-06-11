@@ -12,6 +12,7 @@
     text-align: center;
 
     .organize-text__box-title {
+      font-weight: 400;
       max-width: 320px;
       font-size: 48px;
       line-height: 55px;
@@ -61,7 +62,7 @@
       align-items: flex-start;
       text-align: left;
       .organize-text__box-title {
-        max-width: 510px;
+        max-width: 500px;
       }
 
       .organize-text__box-description {

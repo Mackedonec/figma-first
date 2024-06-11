@@ -1,5 +1,5 @@
 .header {
-  min-height: 930px;
+  min-height: 950px;
   background-image: url(../img/backimg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,4 +167,3 @@
     }
   }
 }
-
