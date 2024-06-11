@@ -1,38 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --bg-color-primary: #ffffff;
-    --bg-color-secondary: #2091F9;
-    --bg-color-dark: #252B42;
-    --text-color-primary: #252B42;
-    --text-color-secondary: #374754;
-    --text-color-light: #ffffff;
-    --font-family-primary: "Roboto", sans-serif;
+  --bg-color-primary: #ffffff;
+  --bg-color-secondary: #2091f9;
+  --bg-color-dark: #252b42;
+  --text-color-primary: #252b42;
+  --text-color-secondary: #374754;
+  --hover-color-primary: #ffffff;
+  --hover-color-secondary: #2091f9;
+  --text-color-light: #ffffff;
+  --font-family-primary: "Roboto", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: var(--font-family-primary);
+  font-family: var(--font-family-primary);
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container-lg {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
 }
