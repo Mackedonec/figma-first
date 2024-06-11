@@ -40,11 +40,13 @@
       border-radius: 35px;
       transition: 0.5s;
       margin-bottom: 50px;
+      border: 1px solid transparent;
 
       &:hover {
         transition: 0.5s;
         background-color: var(--hover-color-primary);
         color: var(--hover-color-secondary);
+        border: 1px solid var(--hover-color-secondary);
       }
     }
   }
