@@ -149,6 +149,7 @@
           }
 
           &:hover path {
+            cursor: pointer;
             transition: 0.5s;
             fill: var(--hover-color-secondary);
           }
