@@ -1,145 +1,148 @@
-.container-lg {
-  background-color: var(--bg-color-dark);
-}
-
-.pricing-wrapper {
-  padding: 100px 0;
-  margin: 100px auto;
-  text-align: center;
-
-  .pricing-title {
-    color: var(--text-color-light);
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: 0.2px;
-    margin-bottom: 20px;
+.pricing {
+  &.container-lg {
+    background-color: var(--bg-color-dark);
   }
+  .pricing-wrapper {
+    padding: 100px 0;
+    margin: 100px auto;
+    text-align: center;
 
-  .pricing-description {
-    color: var(--text-color-light);
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: 0.2px;
-    margin: 0 auto 20px;
-    max-width: 265px;
-    height: 80px;
-    overflow: hidden;
-  }
+    .pricing-title {
+      color: var(--text-color-light);
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: 0.2px;
+      margin-bottom: 20px;
+    }
 
-  .pricing-columns {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .pricing-description {
+      color: var(--text-color-light);
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+      margin: 0 auto 20px;
+      max-width: 265px;
+      height: 80px;
+      overflow: hidden;
+    }
 
-    .pricing-column {
-      padding: 0 20px;
-      border-radius: 10px;
-      margin: 50px 40px;
-      max-width: 335px;
-      min-height: 605px;
-      background-color: var(--bg-color-primary);
+    .pricing-columns {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-      &.center {
-        color: var(--text-color-light);
-        background-color: var(--bg-color-secondary);
+      .pricing-column {
+        padding: 0 20px;
+        border-radius: 10px;
+        margin: 50px 40px;
+        max-width: 335px;
+        min-height: 605px;
+        background-color: var(--bg-color-primary);
 
-        .pricing-button {
-          color: var(--text-color-third);
-          background-color: var(--bg-color-primary);
+        &.center {
+          color: var(--text-color-light);
+          background-color: var(--bg-color-secondary);
 
-          &:hover {
-            color: var(--text-color-light);
-            background-color: var(--bg-color-secondary);
-            border: 1px solid var(--hover-color-primary);
+          .pricing-button {
+            color: var(--text-color-third);
+            background-color: var(--bg-color-primary);
+
+            &:hover {
+              color: var(--text-color-light);
+              background-color: var(--bg-color-secondary);
+              border: 1px solid var(--hover-color-primary);
+            }
           }
+        }
+
+        .pricing-column__title {
+          margin: 45px 0 5px;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+        }
+
+        .pricing-column__description {
+          margin: 0 auto 30px;
+          max-width: 140px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          letter-spacing: 0.1px;
         }
       }
 
-      .pricing-column__title {
-        margin: 45px 0 5px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.2px;
-      }
-
-      .pricing-column__description {
+      .pricing-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto 30px;
-        max-width: 140px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 23px;
-        letter-spacing: 0.1px;
-      }
-    }
 
-    .pricing-price {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto 30px;
+        .pricing-price__value {
+          font-weight: 700;
+          font-size: 74px;
+          line-height: 84px;
+          letter-spacing: 0.2px;
+        }
 
-      .pricing-price__value {
-        font-weight: 700;
-        font-size: 74px;
-        line-height: 84px;
-        letter-spacing: 0.2px;
-      }
+        .pricing-price__text-cash {
+          text-align: left;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+        }
 
-      .pricing-price__text-cash {
-        text-align: left;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.2px;
+        .pricing-price__text-item {
+          text-align: left;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          letter-spacing: 0.1px;
+        }
       }
 
-      .pricing-price__text-item {
-        text-align: left;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 23px;
-        letter-spacing: 0.1px;
+      .pricing-feature {
+        .pricing-feature__item {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+          padding: 10px;
+        }
       }
-    }
-    
-    .pricing-feature {
-      .pricing-feature__item {
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 28px;
-        letter-spacing: 0.2px;
-        padding: 10px;
+      .pricing-button {
+        margin-bottom: 20px;
       }
-    }
-    .pricing-button {
-      margin-bottom: 20px;
     }
   }
 }
 
 @media (min-width: 600px) {
-  .pricing-wrapper {
-    .pricing-description {
-      max-width: 565px;
-      height: 100px;
-    }
+  .pricing {
+    .pricing-wrapper {
+      .pricing-description {
+        max-width: 565px;
+        height: 100px;
+      }
 
-    .pricing-columns {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      flex-wrap: wrap;
+      .pricing-columns {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
 
-      .pricing-column {
-        &.center {
-          height: 695px;
+        .pricing-column {
+          &.center {
+            height: 695px;
 
-          .pricing-column__title {
-            margin: 90px 0 5px;
+            .pricing-column__title {
+              margin: 90px 0 5px;
+            }
           }
         }
       }
