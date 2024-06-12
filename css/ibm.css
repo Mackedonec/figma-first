@@ -1,0 +1,66 @@
+.ibm {
+  margin-bottom: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .ibm-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    margin-bottom: 90px;
+  }
+
+  .ibm-description {
+    margin: 50px auto;
+    max-width: 285px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+  }
+
+  .ibm-box {
+    display: flex;
+    margin-bottom: 90px;
+
+    .ibm-box__text {
+        margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .ibm-box__text-name {
+        font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .ibm {
+    .ibm-description {
+      max-width: 585px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 35px;
+      letter-spacing: 0.2px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .ibm {
+    .ibm-description {
+      max-width: 970px;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+    }
+  }
+}
