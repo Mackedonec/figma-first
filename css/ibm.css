@@ -27,15 +27,15 @@
     margin-bottom: 90px;
 
     .ibm-box__text {
-        margin-left: 10px;
+      margin-left: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
       .ibm-box__text-name {
         font-size: 10px;
-    line-height: 15px;
-    letter-spacing: 0.1px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
       }
     }
   }
