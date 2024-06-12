@@ -1,0 +1,120 @@
+.prototype {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  text-align: center;
+
+  .prototype-img {
+    order: 2;
+  }
+
+  .prototype-text {
+    order: 1;
+    padding: 50px 0;
+
+    .prototype-text__title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+    }
+
+    .prototype-text__subtitle {
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: 0.2px;
+    }
+  }
+
+  .prototype-form {
+    order: 3;
+    padding: 50px 0;
+
+    .prototype-form__title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+    }
+
+    .prototype-form__description {
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.2px;
+    }
+
+    .prototype-form__form {
+      margin-top: 50px;
+    }
+
+    .prototype-form__input {
+      display: block;
+      padding: 19px 39px;
+      margin: 10px auto;
+      border-radius: 39px;
+    }
+
+    .prototype-form__button {
+      display: inline-block;
+      background-color: var(--bg-color-secondary);
+      color: var(--text-color-light);
+      font-size: 20px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      padding: 20px 65px;
+      border-radius: 35px;
+      transition: 0.5s;
+      border: 1px solid transparent;
+
+      &:hover {
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: var(--hover-color-primary);
+        color: var(--hover-color-secondary);
+        border: 1px solid var(--hover-color-secondary);
+      }
+    }
+  }
+}
+
+@media (min-width: 945px) {
+  .prototype {
+    margin: 200px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: left;
+
+    .prototype-img {
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
+    }
+
+    .prototype-text {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+
+      .prototype-text__subtitle {
+        width: 500px;
+      }
+    }
+    .prototype-form {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+
+      .prototype-form__form {
+        display: flex;
+        align-items: center;
+        .prototype-form__input {
+          display: inline-block;
+          margin: 0;
+        }
+        .prototype-form__button {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}

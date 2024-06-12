@@ -12,9 +12,9 @@
   --bg-color-dark: #252b42;
   --text-color-primary: #252b42;
   --text-color-secondary: #374754;
+  --text-color-light: #ffffff;
   --hover-color-primary: #ffffff;
   --hover-color-secondary: #2091f9;
-  --text-color-light: #ffffff;
   --font-family-primary: "Roboto", sans-serif;
 }
 
@@ -52,4 +52,4 @@ li {
   max-width: 1400px;
   margin: auto;
   padding: 0 5px;
- }
+}
