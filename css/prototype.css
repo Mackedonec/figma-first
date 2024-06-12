@@ -12,7 +12,7 @@
 
   .prototype-text {
     order: 1;
-    padding: 50px 0;
+    padding: 70px 0 10px;
 
     .prototype-text__title {
       font-weight: 700;
@@ -31,7 +31,7 @@
 
   .prototype-form {
     order: 3;
-    padding: 50px 0;
+    padding: 10px 0 70px;
 
     .prototype-form__title {
       font-weight: 700;
@@ -55,27 +55,6 @@
       padding: 19px 39px;
       margin: 10px auto;
       border-radius: 39px;
-    }
-
-    .prototype-form__button {
-      display: inline-block;
-      background-color: var(--bg-color-secondary);
-      color: var(--text-color-light);
-      font-size: 20px;
-      line-height: 20px;
-      letter-spacing: 0.2px;
-      padding: 20px 65px;
-      border-radius: 35px;
-      transition: 0.5s;
-      border: 1px solid transparent;
-
-      &:hover {
-        cursor: pointer;
-        transition: 0.5s;
-        background-color: var(--hover-color-primary);
-        color: var(--hover-color-secondary);
-        border: 1px solid var(--hover-color-secondary);
-      }
     }
   }
 }
