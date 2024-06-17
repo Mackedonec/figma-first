@@ -354,10 +354,10 @@
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </p>
-        <div class="contact-box">
-          <div class="contact-form">
+        <div class="contact-wrapper">
+          <div class="contact-form__container">
             <h5 class="contact-form__title">Contact Us</h5>
-            <form action="">
+            <form class="contact-form" action="">
               <input
                 class="contact-form__input"
                 type="text"
@@ -375,49 +375,55 @@
                 name="textarea"
                 placeholder="Your Message"
               ></textarea>
-              <button class="contact-form__button">Send</button>
+              <button class="contact-form__button button">Send</button>
             </form>
           </div>
-          <div class="contact-map">
-            <div class="contact-box__item">
-              <img
-                class="contact-box__item-img"
-                src="img/bx_bx-map.png"
-                alt="map"
-              />
-              <p class="contact-box__item-description">
-                6386 Spring St undefined Anchorage, Georgia 12473 United States
-              </p>
+          <div class="contact-container">
+            <div class="contact-box__items">
+              <div class="contact-box__item">
+                <img
+                  class="contact-box__item-img"
+                  src="img/bx_bx-map.png"
+                  alt="map"
+                />
+                <p class="contact-box__item-description">
+                  6386 Spring St undefined Anchorage, Georgia 12473 United
+                  States
+                </p>
+              </div>
+              <div class="contact-box__item">
+                <img
+                  class="contact-box__item-img"
+                  src="img/ic_baseline-phone-android.png"
+                  alt="phone"
+                />
+                <p class="contact-box__item-description">(843) 555-0130</p>
+              </div>
+              <div class="contact-box__item">
+                <img
+                  class="contact-box__item-img"
+                  src="img/ant-design_mail-outlined.png"
+                  alt="mail"
+                />
+                <p class="contact-box-item__description">
+                  willie.jennings@example.com
+                </p>
+              </div>
             </div>
-            <div class="contact-box__item">
-              <img
-                class="contact-box__item-img"
-                src="img/ic_baseline-phone-android.png"
-                alt="phone"
-              />
-              <p class="contact-box__item-description">(843) 555-0130</p>
+            <div class="contact-box__map">
+              <iframe
+                class="contact-box__map-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12614.429252170772!2d-122.41842831440547!3d37.77580486831574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809be90f0637%3A0xd558ef250f4addf9!2sBill%20Graham%20Civic%20Auditorium!5e0!3m2!1suk!2sua!4v1717952157731!5m2!1suk!2sua"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-            <div class="contact-box__item">
-              <img
-                class="contact-box__item-img"
-                src="img/ant-design_mail-outlined.png"
-                alt="mail"
-              />
-              <p class="contact-box-item__description">
-                willie.jennings@example.com
-              </p>
-            </div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12614.429252170772!2d-122.41842831440547!3d37.77580486831574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809be90f0637%3A0xd558ef250f4addf9!2sBill%20Graham%20Civic%20Auditorium!5e0!3m2!1suk!2sua!4v1717952157731!5m2!1suk!2sua"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <div class="contact-social">
+            <div class="contact-box__social">
               <svg
-                class="contact-social__item"
+                class="contact-box__social-item"
                 width="42"
                 height="42"
                 viewBox="0 0 42 42"
@@ -431,7 +437,7 @@
                 />
               </svg>
               <svg
-                class="contact-social__item"
+                class="contact-box__social-item"
                 width="42"
                 height="42"
                 viewBox="0 0 42 42"
@@ -445,7 +451,7 @@
                 />
               </svg>
               <svg
-                class="contact-social__item"
+                class="contact-box__social-item"
                 width="42"
                 height="42"
                 viewBox="0 0 42 42"

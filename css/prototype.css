@@ -5,6 +5,7 @@
   grid-template-rows: auto auto auto;
   align-items: center;
   text-align: center;
+  justify-items: center;
 
   .prototype-img {
     order: 2;
@@ -52,9 +53,11 @@
 
     .prototype-form__input {
       display: block;
-      padding: 19px 39px;
+      padding: 23px 39px;
       margin: 10px auto;
       border-radius: 39px;
+      border: transparent;
+      background-color: var(--input-color-primary);
     }
   }
 }

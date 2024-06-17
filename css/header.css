@@ -238,6 +238,11 @@
             transition: 0.5s;
             fill: var(--hover-color-secondary);
           }
+
+          &:hover {
+            transition: 0.5s;
+            background-color: var(--hover-color-primary);
+          }
         }
       }
     }
